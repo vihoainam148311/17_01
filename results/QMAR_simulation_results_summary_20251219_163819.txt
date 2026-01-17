@@ -1,0 +1,59 @@
+SIMULATION RESULTS SUMMARY
+==================================================
+
+Total simulations: 63
+Routing algorithm: VDN_QMAR
+Drone counts: [30, 40, 50, 60, 70, 80, 90]
+Drone speeds: [12]
+Seeds: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+METRICS SUMMARY:
+------------------------------
+
+Delivery_Ratio:
+  Mean: 0.8663
+  Std:  0.0400
+  Min:  0.7507
+  Max:  0.9320
+
+Mean_Delivery_Time:
+  Mean: 45.9141
+  Std:  7.9931
+  Min:  32.7585
+  Max:  70.3447
+
+Total_Energy_Consumed:
+  Mean: 839974.1175
+  Std:  319209.2080
+  Min:  311543.4480
+  Max:  1401325.4970
+
+Energy_Efficiency:
+  Mean: 101.7128
+  Std:  9.3532
+  Min:  70.5808
+  Max:  119.4855
+
+Throughput:
+  Mean: 16.3531
+  Std:  5.7238
+  Min:  7.2460
+  Max:  26.0860
+
+GROUP BY DRONE COUNT:
+------------------------------
+       Delivery_Ratio  Mean_Delivery_Time  Total_Energy_Consumed  Energy_Efficiency  Throughput
+Drone                                                                                          
+30           0.856777           54.970617           3.801757e+05          94.678632    8.079111
+40           0.846902           48.802389           5.290413e+05          99.482743   10.642889
+50           0.854463           47.230691           6.633790e+05          99.247551   13.386889
+60           0.872216           46.003003           8.365168e+05         102.221031   16.374222
+70           0.872943           44.750129           1.005036e+06         105.230391   19.127333
+80           0.875976           40.475845           1.158672e+06         106.049077   21.916222
+90           0.884958           39.165797           1.306998e+06         105.080093   24.944889
+
+GROUP BY DRONE SPEED:
+------------------------------
+             Delivery_Ratio  Mean_Delivery_Time  Total_Energy_Consumed  Energy_Efficiency  Throughput
+Drone_Speed                                                                                          
+12                 0.866319           45.914067          839974.117476         101.712788   16.353079

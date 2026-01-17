@@ -1,0 +1,53 @@
+SIMULATION RESULTS SUMMARY
+==================================================
+
+Total simulations: 2
+Routing algorithm: MAPPO
+Drone counts: [40]
+Drone speeds: [12]
+Seeds: [1, 2]
+
+METRICS SUMMARY:
+------------------------------
+
+Delivery_Ratio:
+  Mean: 0.9708
+  Std:  0.0074
+  Min:  0.9656
+  Max:  0.9761
+
+Mean_Delivery_Time:
+  Mean: 12.4436
+  Std:  0.8605
+  Min:  11.8352
+  Max:  13.0521
+
+Total_Energy_Consumed:
+  Mean: 369161.6415
+  Std:  8726.3291
+  Min:  362991.1950
+  Max:  375332.0880
+
+Energy_Efficiency:
+  Mean: 60.2917
+  Std:  0.7499
+  Min:  59.7615
+  Max:  60.8219
+
+Throughput:
+  Mean: 12.2450
+  Std:  0.1372
+  Min:  12.1480
+  Max:  12.3420
+
+GROUP BY DRONE COUNT:
+------------------------------
+       Delivery_Ratio  Mean_Delivery_Time  Total_Energy_Consumed  Energy_Efficiency  Throughput
+Drone                                                                                          
+40           0.970817           12.443641            369161.6415          60.291699      12.245
+
+GROUP BY DRONE SPEED:
+------------------------------
+             Delivery_Ratio  Mean_Delivery_Time  Total_Energy_Consumed  Energy_Efficiency  Throughput
+Drone_Speed                                                                                          
+12                 0.970817           12.443641            369161.6415          60.291699      12.245

@@ -1,0 +1,59 @@
+SIMULATION RESULTS SUMMARY
+==================================================
+
+Total simulations: 63
+Routing algorithm: GEO
+Drone counts: [30, 40, 50, 60, 70, 80, 90]
+Drone speeds: [12]
+Seeds: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+METRICS SUMMARY:
+------------------------------
+
+Delivery_Ratio:
+  Mean: 0.8651
+  Std:  0.0308
+  Min:  0.8095
+  Max:  0.9314
+
+Mean_Delivery_Time:
+  Mean: 46.3853
+  Std:  5.0746
+  Min:  35.5110
+  Max:  55.9962
+
+Total_Energy_Consumed:
+  Mean: 349801.4495
+  Std:  102263.7265
+  Min:  178792.4400
+  Max:  503926.3920
+
+Energy_Efficiency:
+  Mean: 43.8328
+  Std:  3.1529
+  Min:  39.0833
+  Max:  53.1245
+
+Throughput:
+  Mean: 16.2270
+  Std:  5.3589
+  Min:  7.7760
+  Max:  24.9720
+
+GROUP BY DRONE COUNT:
+------------------------------
+       Delivery_Ratio  Mean_Delivery_Time  Total_Energy_Consumed  Energy_Efficiency  Throughput
+Drone                                                                                          
+30           0.867651           41.176272          195835.298333          48.019643    8.181778
+40           0.870368           44.693742          248514.651333          45.532785   10.938222
+50           0.871329           45.342756          300853.459000          44.149481   13.653556
+60           0.867150           46.103783          351883.577667          43.287661   16.279111
+70           0.866304           49.204549          401180.730333          42.320765   18.983111
+80           0.859689           48.729618          450201.548333          41.895583   21.509778
+90           0.853047           49.446395          500140.881667          41.623982   24.043556
+
+GROUP BY DRONE SPEED:
+------------------------------
+             Delivery_Ratio  Mean_Delivery_Time  Total_Energy_Consumed  Energy_Efficiency  Throughput
+Drone_Speed                                                                                          
+12                 0.865077           46.385302          349801.449524          43.832843   16.227016

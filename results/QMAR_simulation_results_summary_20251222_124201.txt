@@ -1,0 +1,55 @@
+SIMULATION RESULTS SUMMARY
+==================================================
+
+Total simulations: 20
+Routing algorithm: QMIX_QMAR
+Drone counts: [30, 40, 50]
+Drone speeds: [12]
+Seeds: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+METRICS SUMMARY:
+------------------------------
+
+Delivery_Ratio:
+  Mean: 0.8341
+  Std:  0.0644
+  Min:  0.6818
+  Max:  0.9224
+
+Mean_Delivery_Time:
+  Mean: 49.0911
+  Std:  9.6453
+  Min:  37.4661
+  Max:  71.1507
+
+Total_Energy_Consumed:
+  Mean: 495883.8690
+  Std:  101147.6627
+  Min:  361203.0210
+  Max:  672624.8040
+
+Energy_Efficiency:
+  Mean: 104.2822
+  Std:  13.0154
+  Min:  84.2133
+  Max:  133.4005
+
+Throughput:
+  Mean: 9.5626
+  Std:  1.9181
+  Min:  7.3180
+  Max:  13.5880
+
+GROUP BY DRONE COUNT:
+------------------------------
+       Delivery_Ratio  Mean_Delivery_Time  Total_Energy_Consumed  Energy_Efficiency  Throughput
+Drone                                                                                          
+30           0.838221           48.435158          398710.763667         101.431005    7.902889
+40           0.826593           48.330099          558589.558333         108.548595   10.389111
+50           0.849738           55.467384          650987.241000          97.914063   13.312000
+
+GROUP BY DRONE SPEED:
+------------------------------
+             Delivery_Ratio  Mean_Delivery_Time  Total_Energy_Consumed  Energy_Efficiency  Throughput
+Drone_Speed                                                                                          
+12                  0.83414           49.091104             495883.869         104.282226      9.5626

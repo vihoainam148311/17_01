@@ -1,0 +1,59 @@
+SIMULATION RESULTS SUMMARY
+==================================================
+
+Total simulations: 63
+Routing algorithm: MultiAgentEDQN
+Drone counts: [30, 40, 50, 60, 70, 80, 90]
+Drone speeds: [12]
+Seeds: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+METRICS SUMMARY:
+------------------------------
+
+Delivery_Ratio:
+  Mean: 0.8857
+  Std:  0.0231
+  Min:  0.8342
+  Max:  0.9330
+
+Mean_Delivery_Time:
+  Mean: 42.8249
+  Std:  3.3221
+  Min:  36.0512
+  Max:  55.3415
+
+Total_Energy_Consumed:
+  Mean: 1044762.9051
+  Std:  409050.6595
+  Min:  402266.8140
+  Max:  1734009.8160
+
+Energy_Efficiency:
+  Mean: 122.8645
+  Std:  10.7114
+  Min:  91.6534
+  Max:  140.8780
+
+Throughput:
+  Mean: 16.6676
+  Std:  5.6452
+  Min:  7.6880
+  Max:  25.7180
+
+GROUP BY DRONE COUNT:
+------------------------------
+       Delivery_Ratio  Mean_Delivery_Time  Total_Energy_Consumed  Energy_Efficiency  Throughput
+Drone                                                                                          
+30           0.877912           44.535853           4.485112e+05         108.552620    8.280000
+40           0.881115           43.752694           6.385421e+05         115.449573   11.072889
+50           0.886902           42.365860           8.301003e+05         119.663255   13.897333
+60           0.887881           43.465860           1.048365e+06         125.832443   16.669111
+70           0.887312           42.715397           1.249030e+06         128.532912   19.443778
+80           0.891286           41.521722           1.445099e+06         129.677621   22.300889
+90           0.887261           41.417194           1.653693e+06         132.343085   25.008889
+
+GROUP BY DRONE SPEED:
+------------------------------
+             Delivery_Ratio  Mean_Delivery_Time  Total_Energy_Consumed  Energy_Efficiency  Throughput
+Drone_Speed                                                                                          
+12                 0.885667            42.82494           1.044763e+06         122.864501   16.667556
